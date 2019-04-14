@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "name": "Smile",
+    "version": "2.0",
+    "description": "Smile everyday!",
+
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+
+
+
+    "content_scripts": [
+        {
+
+
+
+            "js": ["jquery.min.js", "main.js"],
+
+            "html": ["content.html"],
+
+            "matches": [
+                "https://elms.umd.edu/*",
+                "https://www.facebook.com/*",
+                "https://www.instagram.com/*",
+                "https://twitter.com/*"
+            ]
+        }
+    ],
+
+    "chrome_url_overrides": {
+
+  },
+
+    "icons": {
+        "16": "images/icons8-smiling-16.png",
+        "32": "images/icons8-smiling-32.png",
+        "48": "images/icons8-smiling-48.png",
+        "128": "images/icons8-smiling-96.png"
+      },
+
+    "web_accessible_resources": [
+        "face-api.js",
+        "main.js"
+    ]
+}
