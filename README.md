@@ -1,3 +1,2 @@
 # Smile!
-You're on camera! Everyone could always smile a little more. 
-This Chrome extension reminds you to smile before browsing social media. ML makes sure you won't get through unless you flash a genuine smile... :D
+A Chrome extension that requires the user to smile in order to access any social media page such as Facebook, Twitter, Instagram, etc.
